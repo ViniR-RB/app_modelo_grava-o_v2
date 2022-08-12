@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
                   ElevatedButton(
                     onPressed: () async {
                       if (_formKey.currentState!.validate()) {
-                        Modular.to.navigate('/lesson/');
+                        Modular.to.navigate('/recorder/');
                       }
                     },
                     child: Text('Gravar Àudios'),

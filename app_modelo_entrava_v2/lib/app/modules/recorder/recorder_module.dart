@@ -7,6 +7,6 @@ class RecorderModule extends Module {
 
   @override
   final List<ModularRoute> routes = [
-    ChildRoute(Modular.initialRoute, child: (_, args) => const RecorderPage()),
+    ChildRoute(Modular.initialRoute, child: (_, args) => const RecorderPage(word: "G",)),
   ];
 }

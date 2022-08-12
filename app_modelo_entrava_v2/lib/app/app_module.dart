@@ -1,4 +1,3 @@
-import 'package:app_modelo_entrava_v2/app/modules/lesson/lesson_module.dart';
 import 'package:app_modelo_entrava_v2/app/modules/recorder/recorder_module.dart';
 import 'package:app_modelo_entrava_v2/app/modules/splashpage/splash_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -13,7 +12,6 @@ class AppModule extends Module {
   final List<ModularRoute> routes = [
     ModuleRoute('/', module: SplashModule()),
     ModuleRoute('/home', module: HomeModule()),
-    ModuleRoute('/recorder', module: RecorderModule()),
-    ModuleRoute('/lesson', module: LessonModule()),
+    ModuleRoute('/recorder', module: RecorderModule())
   ];
 }
